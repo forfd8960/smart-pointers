@@ -1,0 +1,31 @@
+[package]
+name = "smart-pointers"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+[[bin]]
+name="box1"
+path="src/examples/box1.rs"
+
+
+[[bin]]
+name="box2"
+path="src/examples/box2.rs"
+
+
+[[bin]]
+name="box3"
+path="src/examples/box3.rs"
+
+
+[[bin]]
+name="rc2"
+path="src/examples/rc2.rs"
+
+
+[[bin]]
+name="refcell1"
+path="src/examples/refcell.rs"
